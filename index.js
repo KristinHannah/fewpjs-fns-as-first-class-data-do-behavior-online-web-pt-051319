@@ -20,7 +20,7 @@ function greet(time){
   if (12 < hh < 17) {
     return "Good Afternoon";
   }
-  if (hh > 17) {
+  if (17 < hh) {
     return "Good Evening";
   }
 }
