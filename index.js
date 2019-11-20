@@ -14,13 +14,13 @@ function greet(time){
   let time_array = time.split(":");
   let hh = parseInt(time_array[0]);
   let mm = parseInt(time_array[1]);
-  if hh <= 12{
-    return "Good Morning."
+  if (hh <= 12){
+    return "Good Morning.";
   }
-  if 17 > hh > 12 {
-    return "Good Afternoon."
+  if (17 > hh > 12) {
+    return "Good Afternoon.";
   }
-  if hh > 17:00 {
-    return "Good Evening."
+  if (hh > 17) {
+    return "Good Evening.";
   }
 }
